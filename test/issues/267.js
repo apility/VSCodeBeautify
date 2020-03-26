@@ -1,34 +1,34 @@
 module.exports = {
   extension: 'js',
-  command: 'HookyQR.beautifyFile',
+  command: 'Blade.beautifyFile',
   beautifySetting: {
   },
   input: `{
     foo: async function() {
-      //null 
+      //null
     },
     bar: async function() {
-      //null 
+      //null
     },
     baz: async function() {
-      //null 
+      //null
     },
     qux: async function() {
-      //null 
+      //null
     },
   }`,
   expected: `{
     foo: async function() {
-        //null 
+        //null
     },
     bar: async function() {
-        //null 
+        //null
     },
     baz: async function() {
-        //null 
+        //null
     },
     qux: async function() {
-        //null 
+        //null
     },
 }`
 };

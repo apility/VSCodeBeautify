@@ -1,6 +1,6 @@
 module.exports = {
   extension: 'js',
-  command: 'HookyQR.beautifyFile',
+  command: 'Blade.beautifyFile',
   beautifySetting: {
     indent_with_tabs: false,
     space_before_conditional: false,
@@ -23,7 +23,7 @@ module.exports = {
             experience_code,
             job_code
           } = ctx.query;
-  
+
           let predictService = new PredictService( ctx );
           let data = await predictService.getJobAvgOrSort( {
             industry_code,
@@ -32,7 +32,7 @@ module.exports = {
             nature_code,
             job_code
           } );
-  
+
           pr.success( ctx, data[ 0 ] );
         } catch ( error ) {
           pr.error( ctx, error );

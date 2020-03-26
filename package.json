@@ -10,7 +10,7 @@
   "categories": [
     "Other",
     "Programming Languages",
-    "Formatters",
+    "Formatters"
   ],
   "activationEvents": [
     "*"
@@ -212,8 +212,8 @@
     }
   },
   "dependencies": {
+    "@apility/js-beautify": "^1.10.3",
     "editorconfig": "0.15.0",
-    "js-beautify": "apility/js-beautify",
     "minimatch": "^3.0.4"
   },
   "devDependencies": {

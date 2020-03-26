@@ -1,6 +1,6 @@
 module.exports = {
   extension: 'js',
-  command: 'HookyQR.beautifyFile',
+  command: 'Blade.beautifyFile',
   beautifySetting: {
     indent_size: 2,
     indent_char: ' ',

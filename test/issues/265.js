@@ -1,6 +1,6 @@
 module.exports = {
   extension: 'scss',
-  command: 'HookyQR.beautifyFile',
+  command: 'Blade.beautifyFile',
   codeSetting: {
     'terminal.integrated.shell.osx': 'zsh',
     'workbench.startupEditor': 'newUntitledFile',

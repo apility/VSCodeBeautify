@@ -1,6 +1,6 @@
 module.exports = {
   extension: 'js',
-  command: 'HookyQR.beautifyFile',
+  command: 'Blade.beautifyFile',
   beautifySetting: {
     js: {
       brace_style: 'collapse',
@@ -35,7 +35,7 @@ module.exports = {
     // Some code
   }
   switch( value ) {
-  
+
   }`,
   expected: `if( true ) {
 	// Correctly removes space after conditional
