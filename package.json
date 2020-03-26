@@ -1,16 +1,16 @@
 {
-  "name": "beautify",
-  "displayName": "Beautify",
-  "description": "Beautify code in place for VS Code",
-  "version": "1.4.11",
-  "publisher": "HookyQR",
+  "name": "beautify-blade",
+  "displayName": "Beautify Blade",
+  "description": "Beautify Blade code in place for VS Code",
+  "version": "1.0.0",
+  "publisher": "apility",
   "engines": {
     "vscode": "^1.22.0"
   },
   "categories": [
     "Other",
     "Programming Languages",
-    "Formatters"
+    "Formatters",
   ],
   "activationEvents": [
     "*"
@@ -43,11 +43,11 @@
     ],
     "commands": [
       {
-        "command": "HookyQR.beautify",
+        "command": "Blade.beautify",
         "title": "Beautify selection"
       },
       {
-        "command": "HookyQR.beautifyFile",
+        "command": "Blade.beautifyFile",
         "title": "Beautify file"
       }
     ],
@@ -98,7 +98,9 @@
             ],
             "html": [
               "htm",
-              "html"
+              "html",
+              "php",
+              "blade.php"
             ]
           },
           "properties": {
@@ -211,7 +213,7 @@
   },
   "dependencies": {
     "editorconfig": "0.15.0",
-    "js-beautify": "^1.9.0",
+    "js-beautify": "apility/js-beautify",
     "minimatch": "^3.0.4"
   },
   "devDependencies": {
@@ -228,9 +230,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/HookyQR/VSCodeBeautify"
+    "url": "https://github.com/apility/VSCodeBeautify"
   },
   "bugs": {
-    "url": "https://github.com/HookyQR/VSCodeBeautify/issues"
+    "url": "https://github.com/apility/VSCodeBeautify/issues"
   }
 }

@@ -1,14 +1,10 @@
-# js-beautify for VS Code
+# Blade formatter for VS Code
 
-[![Build Status](https://api.travis-ci.org/HookyQR/VSCodeBeautify.svg?branch=master)](https://travis-ci.org/HookyQR/VSCodeBeautify) [![Build status](https://ci.appveyor.com/api/projects/status/mu73cgat3r1t0weu/branch/master?svg=true)](https://ci.appveyor.com/project/HookyQR/vscodebeautify) [![Licence](https://img.shields.io/github/license/HookyQR/VSCodeBeautify.svg)](https://github.com/HookyQR/VSCodeBeautify)
-[![VS Code Marketplace](https://vsmarketplacebadge.apphb.com/version-short/HookyQR.beautify.svg) ![Rating](https://vsmarketplacebadge.apphb.com/rating-short/HookyQR.beautify.svg) ![Downloads](https://vsmarketplacebadge.apphb.com/downloads-short/HookyQR.beautify.svg) ![Installs](https://vsmarketplacebadge.apphb.com/installs-short/HookyQR.beautify.svg)](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
-[![Donate](https://img.shields.io/badge/donate-paypal-brightgreen.svg)](https://paypal.me/HookyQR)
-
-Beautify `javascript`, `JSON`, `CSS`, `Sass`, and `HTML` in Visual Studio Code.
+Beautify `blade`, `javascript`, `JSON`, `CSS`, `Sass`, and `HTML` in Visual Studio Code.
 
 VS Code uses js-beautify internally, but it lacks the ability to modify the style you wish to use. This extension enables running [js-beautify](http://jsbeautifier.org/) in VS Code, _AND_ honouring any `.jsbeautifyrc` file in the open file's path tree to load *your* code styling. Run with  **F1** `Beautify` (to beautify a selection) or **F1** `Beautify file`.
 
-For help on the settings in the `.jsbeautifyrc` see [Settings.md](https://github.com/HookyQR/VSCodeBeautify/blob/master/Settings.md)
+For help on the settings in the `.jsbeautifyrc` see [Settings.md](https://github.com/apility/VSCodeBeautify/blob/master/Settings.md)
 
 ## How we determine what settings to use
 
@@ -106,7 +102,7 @@ Examples:
 
 Note that the glob patterns are not used to test against the containing folder. You must match the filename as well.
 
-Embedded version of js-beautify is v1.8.4
+Embedded version of js-beautify is a custom fork [located here](https://github.com/apility/js-beautify) based on this [Gist](https://gist.github.com/fzldn/a27973ff7e4c8e3738b0e06e525f7403)
 
 ### Keyboard Shortcut
 
@@ -115,11 +111,11 @@ Use the following to embed a beautify shortcut in keybindings.json. Replace with
 ```javascript
 {
   "key": "cmd+b",
-  "command": "HookyQR.beautify",
+  "command": "Blade.beautify",
   "when": "editorFocus"
 }
 ```
 
 ## Contributing
 
-For information on contributing see [Contributing.md](https://github.com/HookyQR/VSCodeBeautify/blob/master/.github/CONTRIBUTING.md)
+For information on contributing see [Contributing.md](https://github.com/apility/VSCodeBeautify/blob/master/.github/CONTRIBUTING.md)
