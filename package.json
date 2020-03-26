@@ -2,7 +2,7 @@
   "name": "beautify-blade",
   "displayName": "Beautify Blade",
   "description": "Beautify Blade code in place for VS Code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "apility",
   "engines": {
     "vscode": "^1.22.0"
